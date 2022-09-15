@@ -66,7 +66,7 @@
         <img src="img/ahmad.jpeg" alt="" height="70px" width="70px" >
         </center>
           <p>Fullname:Ahmad Jafar Waziri</p>
-          <p>Phone:08097754572</p>
+          <p>Phone:08097754573</p>
           <p>Role:admin</p>
           <a href="#"><button type="button" class="btn btn-success m-2">Enable</button></a>
          <a href="#"><button type="button" class="btn btn-danger m-2">Disable</button></a>
