@@ -31,6 +31,8 @@
     <link href="css/style.css" rel="stylesheet">
 
     <!-- New Links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  
 
     
 </head>
@@ -50,7 +52,7 @@
         <div class="sidebar pe-4 pb-3">
             <nav class="navbar bg-secondary navbar-dark">
                 <a href="dashboard.php" class="navbar-brand mx-4 mb-3">
-                    <h3 class="text-primary"><i><img src="img/ArtisanHub2.png" alt="" width="50px" height="50px"></i>ArtisanHub</h3>
+                    <h5 class="text-primary"><i><img src="img/ArtisanHub2.png" alt="" width="50px" height="50px"></i>ArtisanHub</h5>
                 </a>
                 
                 <div class="navbar-nav w-100">
