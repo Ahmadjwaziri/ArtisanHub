@@ -12,7 +12,11 @@
                             
                             <a class="btn btn-primary btn-xs" data-toggle="modal" href="#myModal" data-target="#myModal"><i class="fa fa-edit"></i> Add New Admin</a>
                             <br><br>
+<<<<<<< HEAD
                             <h6 class="mb-4">Users Tables</h6>
+=======
+                            <h4 class="mb-4">Admins Tables</h4>
+>>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
                         </div>
                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="float:right;">
                             <div id="myTable" class="table data-table table-hover table-ultra-responsive">
@@ -38,15 +42,56 @@
                                             <td>Admin</td>
                                             <td>Active</td>
                                             <td>
+<<<<<<< HEAD
                                             <a href="#"><button type="button" class="btn btn-danger m-2">Danger</button></a>
                                             <a href="#"><button type="button" class="btn btn-success m-2">Enable</button></a>
                                             <a href="#"><button type="button" class="btn btn-danger m-2">Disable</button></a>
+=======
+                                            <a href="#"><button type="button" class="btn btn-danger m-2">Delete</button></a>
+                                           
+                                            <button type="button" class="btn btn btn-success m-2" data-toggle="modal" data-target="#text1">View</button>
+>>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
                                             </td>
                                         </tr>
                                         
                                         
                                     </tbody>
+<<<<<<< HEAD
                                 </table>
+=======
+
+                                    
+                                </table>
+                                <!-- Modal -->
+  <div class="modal fade" id="text1" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content" style="background-color:white ;">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <b>
+          <h4 class="modal-title">Admin View</h4>
+        </div>
+        
+        <div class="modal-body">
+            <center>
+        <img src="img/ahmad.jpeg" alt="" height="70px" width="70px" >
+        </center>
+          <p>Fullname:Ahmad Jafar Waziri</p>
+          <p>Phone:08097754572</p>
+          <p>Role:admin</p>
+          <a href="#"><button type="button" class="btn btn-success m-2">Enable</button></a>
+         <a href="#"><button type="button" class="btn btn-danger m-2">Disable</button></a>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+      </b>
+    </div>
+  </div>
+>>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
                             </div>
                         </div>
                     </div>
