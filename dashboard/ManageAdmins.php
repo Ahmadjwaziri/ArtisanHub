@@ -12,7 +12,11 @@
                             
                             <a class="btn btn-primary btn-xs" data-toggle="modal" href="#myModal" data-target="#myModal"><i class="fa fa-edit"></i> Add New Admin</a>
                             <br><br>
+<<<<<<< HEAD
+                            <h6 class="mb-4">Admins Tables</h6>
+=======
                             <h4 class="mb-4">Admins Tables</h4>
+>>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
                         </div>
                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="float:right;">
                             <div id="myTable" class="table data-table table-hover table-ultra-responsive">
@@ -38,14 +42,23 @@
                                             <td>Admin</td>
                                             <td>Active</td>
                                             <td>
+<<<<<<< HEAD
+                                            <a href="#"><button type="button" class="btn btn-danger m-2">Danger</button></a>
+                                            <a href="#"><button type="button" class="btn btn-success m-2">Enable</button></a>
+                                            <a href="#"><button type="button" class="btn btn-danger m-2">Disable</button></a>
+=======
                                             <a href="#"><button type="button" class="btn btn-danger m-2">Delete</button></a>
                                            
                                             <button type="button" class="btn btn btn-success m-2" data-toggle="modal" data-target="#text1">View</button>
+>>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
                                             </td>
                                         </tr>
                                         
                                         
                                     </tbody>
+<<<<<<< HEAD
+                                </table>
+=======
 
                                     
                                 </table>
@@ -78,6 +91,7 @@
       </b>
     </div>
   </div>
+>>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
                             </div>
                         </div>
                     </div>
