@@ -12,7 +12,7 @@
                             
                             <a class="btn btn-primary btn-xs" data-toggle="modal" href="#myModal" data-target="#myModal"><i class="fa fa-edit"></i> Add New Admin</a>
                             <br><br>
-                            <h6 class="mb-4">Admins Tables</h6>
+                            <h6 class="mb-4">Staffs Tables</h6>
                         </div>
                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="float:right;">
                             <div id="myTable" class="table data-table table-hover table-ultra-responsive">
