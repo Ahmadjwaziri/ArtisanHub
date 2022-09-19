@@ -64,9 +64,9 @@
                    
                     <a href="ManageAdmins.php" class="nav-item nav-link"><i class="fa fa-user-edit me-2"></i>Manage-Admin</a>  
                     <a href="ManageStaffs.php" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Staffs</a>
-                    <a href="#" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Performance</a>
+                    <a href="Performance.php" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Performance</a>
                     <a href="ManageUsers.php" class="nav-item nav-link"><i class="fa fa-user-edit me-2"></i>Manage-Users</a>
-                    <a href="#" class="nav-item nav-link"><i class="fa fa-laptop me-2"></i>Request-Service</a>
+                    <a href="ServiceRequest.php" class="nav-item nav-link"><i class="fa fa-laptop me-2"></i>Request-Service</a>
                     <a href="#" class="nav-item nav-link"><i class="fa fa-envelope me-lg-2"></i>Messages</a>
                     
                     <div class="nav-item dropdown">
@@ -113,8 +113,8 @@
         <div class="content">
             <!-- Navbar Start -->
             <nav class="navbar navbar-expand bg-secondary navbar-dark sticky-top px-4 py-0">
-                <a href="index.html" class="navbar-brand d-flex d-lg-none me-4">
-                    <h2 class="text-primary mb-0"><i class="fa fa-user-edit"></i></h2>
+                <a href="dashboard.php" class="navbar-brand d-flex d-lg-none me-4">
+                <h5 class="text-primary"><i><img src="img/ArtisanHub2.png" alt="" width="50px" height="50px"></i>ArtysanHub</h5>
                 </a>
                 <a href="#" class="sidebar-toggler flex-shrink-0">
                     <i class="fa fa-bars"></i>

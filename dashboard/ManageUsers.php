@@ -10,7 +10,7 @@
                         <div class="bg-secondary rounded h-100 p-4">
                         <div class="panel-heading">
                             
-                            <a class="btn btn-primary btn-xs" data-toggle="modal" href="#myModal" data-target="#myModal"><i class="fa fa-edit"></i> Add New Admin</a>
+                           
                             <br><br>
 
                             <h4 class="mb-4">Admins Tables</h4>
@@ -25,7 +25,7 @@
                                             <th scope="col">Full Name</th>
                                             <th scope="col">Phone</th>
                                             <th scope="col">Email</th>
-                                            <th scope="col">Role</th>
+                                            <th scope="col">Service Status</th>
                                             <th scope="col">Status</th>
                                             <th scope="col">Action</th>
 
@@ -37,11 +37,11 @@
                                             <td>Ahmad Jafar Waziri</td>
                                             <td>08097754572</td>
                                             <td>ahmedjafarwaziri@email.com</td>
-                                            <td>Admin</td>
+                                            <td>YES</td>
                                             <td>Active</td>
                                             <td>
 
-                                            <a href="#"><button type="button" class="btn btn-danger m-2">Delete</button></a>
+                                           
                                            
                                             <button type="button" class="btn btn btn-success m-2" data-toggle="modal" data-target="#text1">View</button>
 
@@ -62,7 +62,7 @@
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <b>
-          <h4 class="modal-title">Admin View</h4>
+          <h4 class="modal-title">User View</h4>
         </div>
         
         <div class="modal-body">
@@ -71,7 +71,7 @@
         </center>
           <p>Fullname:Ahmad Jafar Waziri</p>
           <p>Phone:08097754572</p>
-          <p>Role:admin</p>
+          <p>Address: No. 18 Sharamanseer Near Haramain, Mecca</p>
           <a href="#"><button type="button" class="btn btn-success m-2">Enable</button></a>
          <a href="#"><button type="button" class="btn btn-danger m-2">Disable</button></a>
         </div>

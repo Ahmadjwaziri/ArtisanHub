@@ -1,5 +1,7 @@
-<?php include ('header.php'); ?>
+<?php   
+include('header.php');
 
+?>
 
 <link media="all" type="text/css" rel="stylesheet" href="assets/libs/data-table/datatables.min.css">
 <br><br>
@@ -9,12 +11,11 @@
 <div class="col-12">
                         <div class="bg-secondary rounded h-100 p-4">
                         <div class="panel-heading">
-                            <!--
-                            <a class="btn btn-primary btn-xs" data-toggle="modal" href="#myModal" data-target="#myModal"><i class="fa fa-edit"></i> Add New Admin</a>
--->
+                            
+                            <a class="btn btn-primary btn-xs"  href="AddService.php" ><i class="fa fa-edit"></i>Request New Service</a>
                             <br><br>
 
-                            <h4 class="mb-4">Staffs Tables</h4>
+                            <h4 class="mb-4">Request Service</h4>
 
                         </div>
                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="float:right;">
@@ -24,10 +25,14 @@
                                         <tr>
                                             <th scope="col">S/N</th>
                                             <th scope="col">Full Name</th>
-                                            <th scope="col">Staff Id</th>
-                                            <th scope="col">Available?</th>
+                                            <th scope="col">User id</th>
+                                            <th scope="col">Service</th>
+                                            <th scope="col">Description</th>
+                                            <th scope="col">Remark</th>
+                                            <th scope="col">Staff Assigned</th>
+                                            <th scope="col">Progress</th>
                                             <th scope="col">Status</th>
-                                            
+                                            <th scope="col">Action</th>
 
                                         </tr>
                                     </thead>
@@ -35,10 +40,20 @@
                                         <tr>
                                             <th scope="row">1</th>
                                             <td>Ahmad Jafar Waziri</td>
-                                            <td>WEB/001</td>
-                                            <td>YES/NO</td>
+                                            <td>user/001</td>
+                                            <td>Web App</td>
+                                            <td>Email integration</td>
+                                            <td>it has been done your code send via email</td>
+                                            <td><a href="#"><button type="button" class="btn btn-success m-2">Ahmad</button></a></td>
+                                            <td>Completed</td>
                                             <td>Active</td>
+                                            <td>
+
                                             
+                                           
+                                            <button type="button" class="btn btn btn-success m-2" data-toggle="modal" data-target="#text1">View</button>
+
+                                            </td>
                                         </tr>
                                         
                                         
@@ -63,11 +78,11 @@
             <center>
         <img src="img/ahmad.jpeg" alt="" height="70px" width="70px" >
         </center>
-          <p>Fullname:Ahmad Jafar Waziri</p>
-          <p>Phone:08097754572</p>
-          <p>Role:admin</p>
-          <a href="#"><button type="button" class="btn btn-success m-2">Enable</button></a>
-         <a href="#"><button type="button" class="btn btn-danger m-2">Disable</button></a>
+          <p>Description:Ahmad Jafar Waziri</p>
+          <p>Service:Web App</p>
+          
+          <a href="#"><button type="button" class="btn btn-success m-2">Edit</button></a>
+         <a href="#"><button type="button" class="btn btn-danger m-2">Delete</button></a>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -86,8 +101,17 @@
 
 
 
-           
-            
-           <?php include ('footer.php'); ?>
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+<?php include('footer.php') ?>

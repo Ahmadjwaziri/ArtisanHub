@@ -1,5 +1,7 @@
-<?php include ('header.php'); ?>
+<?php 
+include('header.php');
 
+?>
 
 <link media="all" type="text/css" rel="stylesheet" href="assets/libs/data-table/datatables.min.css">
 <br><br>
@@ -14,7 +16,7 @@
 -->
                             <br><br>
 
-                            <h4 class="mb-4">Staffs Tables</h4>
+                            <h4 class="mb-4">Performance Table</h4>
 
                         </div>
                         <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names.." title="Type in a name" style="float:right;">
@@ -25,8 +27,11 @@
                                             <th scope="col">S/N</th>
                                             <th scope="col">Full Name</th>
                                             <th scope="col">Staff Id</th>
-                                            <th scope="col">Available?</th>
-                                            <th scope="col">Status</th>
+                                            <th scope="col">Unit</th>
+                                            <th scope="col">Completed Jobs</th>
+                                            <th scope="col">Accepted Jobs</th>
+                                            <th scope="col">Rejected Jobs</th>
+                                            <th scope="col">Total Jobs</th>
                                             
 
                                         </tr>
@@ -36,9 +41,11 @@
                                             <th scope="row">1</th>
                                             <td>Ahmad Jafar Waziri</td>
                                             <td>WEB/001</td>
-                                            <td>YES/NO</td>
-                                            <td>Active</td>
-                                            
+                                            <td>WEB</td>
+                                            <td>20</td>
+                                            <td>20</td>
+                                            <td>20</td>
+                                            <td>60</td>
                                         </tr>
                                         
                                         
@@ -86,8 +93,16 @@
 
 
 
-           
-            
-           <?php include ('footer.php'); ?>
 
-    
+
+
+
+
+
+
+
+
+
+
+
+<?php include('footer.php');            ?>
