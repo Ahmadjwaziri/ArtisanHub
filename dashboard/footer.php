@@ -37,12 +37,10 @@
 
 <script src="assets/js/scripts.js"></script>
 
-<<<<<<< HEAD
-=======
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
->>>>>>> dab8b4d7a4465e086f0a953bd3424468b3e80f21
+
 <!-- Template Javascript -->
 <script src="js/main.js"></script>
 

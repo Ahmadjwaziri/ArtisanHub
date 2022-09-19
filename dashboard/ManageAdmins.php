@@ -10,7 +10,7 @@
                         <div class="bg-secondary rounded h-100 p-4">
                         <div class="panel-heading">
                             
-                            <a class="btn btn-primary btn-xs" data-toggle="modal" href="#myModal" data-target="#myModal"><i class="fa fa-edit"></i> Add New Admin</a>
+                            <a class="btn btn-primary btn-xs"  href="AddAdmin.php" ><i class="fa fa-edit"></i> Add New Admin</a>
                             <br><br>
 
                             <h4 class="mb-4">Admins Tables</h4>
