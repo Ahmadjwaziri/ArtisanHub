@@ -72,8 +72,8 @@
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-bullhorn me-2"></i>Post</a>
                         <div class="dropdown-menu bg-transparent border-0">
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-newspaper me-2"></i>New-Post</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-edit me-2"></i>Manage-post</a>
+                            <a href="NewPost.php" class="nav-item nav-link"><i class="fa fa-newspaper me-2"></i>New-Post</a>
+                            <a href="ManagePost.php" class="nav-item nav-link"><i class="fa fa-edit me-2"></i>Manage-post</a>
                             
                         </div>
                     </div>
