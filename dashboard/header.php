@@ -67,7 +67,7 @@
                     <a href="Performance.php" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Performance</a>
                     <a href="ManageUsers.php" class="nav-item nav-link"><i class="fa fa-user-edit me-2"></i>Manage-Users</a>
                     <a href="ServiceRequest.php" class="nav-item nav-link"><i class="fa fa-laptop me-2"></i>Request-Service</a>
-                    <a href="#" class="nav-item nav-link"><i class="fa fa-envelope me-lg-2"></i>Messages</a>
+                    <a href="ManageMessage.php" class="nav-item nav-link"><i class="fa fa-envelope me-lg-2"></i>Messages</a>
                     
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-bullhorn me-2"></i>Post</a>
