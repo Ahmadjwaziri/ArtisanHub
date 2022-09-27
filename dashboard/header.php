@@ -81,12 +81,12 @@
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-laptop me-2"></i>Services</a>
                         <div class="dropdown-menu bg-transparent border-0">
                             <a href="AllServices.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>All-Service</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Assign</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Accepted</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Rejected</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Rejected</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pending</a>
-                            <a href="#" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Completed</a>
+                            <a href="AssignService.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Assign</a>
+                            <a href="AcceptedService.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Accepted</a>
+                            
+                            <a href="RejectedService.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Rejected</a>
+                            <a href="PendingService.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Pending</a>
+                            <a href="CompletedService.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Completed</a>
                         </div>
                     </div>
                     <a href="#" class="nav-item nav-link"><i class="fa fa-money-bill me-2"></i>Payments</a>
