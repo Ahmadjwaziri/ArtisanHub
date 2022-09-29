@@ -7,6 +7,7 @@ include('connection.php');
 
 
 
+
 ?>
 
 
@@ -74,13 +75,13 @@ include('connection.php');
                 
                 <div class="navbar-nav w-100">
                     <a href="dashboard.php" class="nav-item nav-link active"><i class="fa fa-tachometer-alt me-2"></i>Dashboard</a>
-                   
+                    <a href="ManageMessage.php" class="nav-item nav-link"><i class="fa fa-envelope me-lg-2"></i>Messages</a>
+                   <?php   if(isset($admindata)){  ?>
                     <a href="ManageAdmins.php" class="nav-item nav-link"><i class="fa fa-user-edit me-2"></i>Manage-Admin</a>  
                     <a href="ManageStaffs.php" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Staffs</a>
                     <a href="Performance.php" class="nav-item nav-link"><i class="fa fa-users me-2"></i>Performance</a>
                     <a href="ManageUsers.php" class="nav-item nav-link"><i class="fa fa-user-edit me-2"></i>Manage-Users</a>
-                    <a href="ServiceRequest.php" class="nav-item nav-link"><i class="fa fa-laptop me-2"></i>Request-Service</a>
-                    <a href="ManageMessage.php" class="nav-item nav-link"><i class="fa fa-envelope me-lg-2"></i>Messages</a>
+                    
                     
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-bullhorn me-2"></i>Post</a>
@@ -113,7 +114,12 @@ include('connection.php');
                             <a href="#" class="nav-item nav-link"><i class="fa fa-print me-2"></i>Staffs-List</a>
                             <a href="#" class="nav-item nav-link"><i class="fa fa-print me-2"></i>Performance</a>
                         </div>
-                    </div>
+                    </div>   
+                    <?php } ?>
+                    <?php if(isset($userdata)){   ?>
+                    <a href="ServiceRequest.php" class="nav-item nav-link"><i class="fa fa-laptop me-2"></i>Request-Service</a>
+                    <a href="#" class="nav-item nav-link"><i class="fa fa-money-bill me-2"></i>Payments</a>
+                    <?php } ?>
                     <a href="#" class="nav-item nav-link"><i class="fa fa-user-cog me-2"></i>Settings</a>
                     
                 </div>
@@ -164,7 +170,16 @@ include('connection.php');
                     <div class="nav-item dropdown">
                         <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">
                             <img class="rounded-circle me-lg-2" src="img/ahmad.jpeg" alt="" style="width: 40px; height: 40px;">
-                            <span class="d-none d-lg-inline-flex"><?php echo $admindata['admin_fullname']; ?></span>
+                            <span class="d-none d-lg-inline-flex">
+                                
+                                <?php 
+                               
+                                if(isset($admindata)){
+                                echo $admindata['admin_fullname']; }
+                                else{
+                                 echo $userdata['user_fulname']; } ?>
+                            
+                            </span>
                         </a>
                         <div class="dropdown-menu dropdown-menu-end bg-secondary border-0 rounded-0 rounded-bottom m-0">
                             <a href="#" class="dropdown-item">My Profile</a>

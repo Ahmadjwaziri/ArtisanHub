@@ -43,8 +43,8 @@
                 <span class="sr-only">Loading...</span>
             </div>
         </div>
-        <!-- Spinner End -->
-    -->
+        Spinner End -->
+   
 
         <!-- Sign In Start -->
         <div class="container-fluid">
@@ -58,12 +58,14 @@
                             <h3>Sign In</h3>
                         </div>
                         <form action="login.php" method="post" enctype="multipart/form-data">
+                            <div class="form-floating mb-3">
                             <select class="form-select" id="floatingSelect" name="role"
                             aria-label="Floating label select example">
                             <option selected>Select role</option>
                             <option value="admin">Admin</option>
                             <option value="user">User</option>
                         </select>
+                    </div>
                             <div class="form-floating mb-3">
                             <input type="email" name="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                             <label for="floatingInput">Email address</label>

@@ -1,4 +1,10 @@
-<?php include ('header.php'); ?>
+<?php include ('header.php');
+
+if(isset($admindata)){
+
+?>
+
+
             <!-- Sale & Revenue Start -->
             <div class="container-fluid pt-4 px-4">
                 <div class="row g-4">
@@ -107,8 +113,17 @@
     </div>
 </div>
 <!-- Widgets End -->
-           
-            
-           <?php include ('footer.php'); ?>
+        <?php } if(isset($userdata)){ ?>   
+        
+        <div class="d-flex align-items-center border-bottom py-2">
+                    <input class="form-check-input m-0" type="checkbox">
+                    <div class="w-100 ms-3">
+                        <div class="d-flex w-100 align-items-center justify-content-between">
+                            <span>Welcome to ArtysanHub</span>
+                           
+                        </div>
+                    </div>
+                </div>
+           <?php } include ('footer.php'); ?>
 
          

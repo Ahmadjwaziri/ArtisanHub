@@ -17,12 +17,7 @@ if(mysqli_num_rows($login2)>0){
     
     $_SESSION['admindata'] = $admindata;
      
-     echo '
-     <script>
-     window.location=("dashboard.php");
-     
-     </script>
-     ';
+    header("location:dashboard.php");
      
     
     }else {
@@ -43,12 +38,9 @@ if(mysqli_num_rows($login1)>0){
 $userdata = mysqli_fetch_array($login1);
 
 $_SESSION['userdata'] = $userdata;
-echo '
-<script>
-window.location=("dashboard.php");
+header("location:dashboard.php");
 
-</script>
-';
+
 }else{
 
     echo '
@@ -60,7 +52,12 @@ window.location=("dashboard.php");
     ';
 }
 }else{
-    echo 'invalid role';
+    echo '
+    <script>
+   alert(" invalid role ");
+    </script>
+    ';
+    
 }
 
 
