@@ -24,7 +24,7 @@ window.location=("signup.html");
 
 }else{
 if($password==$cpassword){
-$iid = "user";
+
 $user_id = "user" .rand(0000,99999)."";
 $pass = md5($password);
 $avatar="avatar.jpg";
